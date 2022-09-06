@@ -1,0 +1,40 @@
+:root {
+  --b100: #000;
+  --b80: #333;
+  --b70: #555;
+  --b60: #777;
+  --b50: #999;
+  --b45: #aaa;
+  --b40: #bbb;
+  --b20: #ececf1;
+  --b15: #f2f2f4;
+  --b10: #fafafc;
+  --b0: #fff;
+  --blue50: #f4fbff;
+  --blue100: #e5f1ff;
+  --blue200: #cbdcff;
+  --blue300: #afc1ff;
+  --blue500: #7989ff;
+  --blue500: #3c46ff;
+  --blue600: #00f;
+  --blue700: #0404ac;
+  --blue800: #020267;
+  --blue900: #00002e;
+  --blue: var(--blue600);
+  --success: #0ccf7b;
+  --warning: #d9a22b;
+  --danger: #ff3374;
+  --text-default: var(--b60);
+  --text-disabled: var(--b50);
+  --page-background-color: var(--b10);
+  --input-border: var(--b20);
+  --heading-margin-top: 30px;
+  --heading-margin-bottom: 16px;
+  --content-medium: 760px;
+  --content-large: 1200px;
+  --content-h-padding: 20px;
+  --sans-serif: "ColfaxAI", Helvetica, sans-serif;
+  --serif: Charter, Georgia, serif;
+  --monospace: "Roboto Mono", SFMono-Regular, Consolas, Liberation Mono, Menlo,
+    Courier, monospace;
+}
