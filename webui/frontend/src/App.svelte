@@ -5,10 +5,14 @@
   import ImageView from "./components/ImageView.svelte";
   import Nav from "./components/Nav.svelte";
   import ServerURl from "./components/ServerURl.svelte";
-  import {} from "./api";
-  import { IP } from "./store.js";
+  import { auth } from "./api";
+  import { IP, Session } from "./store.js";
+
   onMount(async () => {
-    fetch($IP + "/rand")
+    auth();
+    fetch($IP + "/whoami", {
+      credentials: "include",
+    })
       .then((response) => response.json())
       .then((data) => {
         console.log(data);

@@ -14,7 +14,7 @@
 >
   <input
     type="text"
-    class="text-input text-input-medium text-input-outlined image-prompt-input"
+    class="text-input  text-input-medium text-input-outlined image-prompt-input"
     placeholder="An Impressionist oil painting of sunflowers in a purple vase…"
     maxlength="400"
     value=""
